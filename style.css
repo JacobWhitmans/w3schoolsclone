@@ -1,0 +1,316 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+.fixed {
+    position: fixed;
+}
+
+.home {
+    display: flex;
+    background-color: rgb(21,32,43);
+    width: 100vw;
+
+    .left {
+        display: flex;
+        justify-content: space-between;
+
+        .logo {
+            width: 38.36px;
+            height: 36px;
+            margin: 8px 16px;
+        }
+        
+        .form {
+            width: 175px;
+            height: 36.5px;
+            border-radius: 50px;
+            padding: 5px 40px 5px 15px;
+            margin: 10px 8px;
+        }
+        
+        .searchbutton {
+            width: 18px;
+            height: 18px;
+            margin-left: -36px;
+            padding-top: 1px;
+        }
+        .fa-circle-half-stroke {
+            color: #fff;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-left: 20px;
+        }
+    }
+    
+    .links {
+        display: flex;
+        list-style: none;
+        .link {
+            padding: 16px;
+        }
+        .sublink {
+            color: white;
+            text-decoration: none;
+            font-size: 16px;
+        }
+        .link:hover {
+            background-color: #059862;
+        }
+    }
+
+    .right {
+        display: flex;
+        align-items: center;
+        position: absolute;
+        right: 30px;        
+
+        .fa{
+            color: purple;
+            margin-right: 10px;
+        }
+
+        .link:hover {
+            background-color: rgba(256, 256 , 256, 0.3);
+            border-radius: 50px;
+        }
+
+        .reg {
+            .signup {
+                background-color:#059862;
+                width: 93px;
+                height: 40px;
+                border-radius: 50px;
+                border: none;
+                color: #fff;
+                position: relative;
+                z-index: 1;
+            } 
+
+            .login {
+                background-color:#D9EEE1;
+                width: 112px;
+                height: 40px;
+                border-radius: 50px;
+                border: none;
+                color: #000;
+                margin-left: -50px;
+                padding-left: 30px;
+                position: relative;
+            }
+        }
+    }
+
+}
+
+.langs{
+    background-color: #282A35;
+    height: 32.5px;
+    position: fixed;
+    width: 100vw;  
+
+    .links {
+        display: flex;
+        list-style: none;
+        .link {
+            padding: 5px 15px;
+        }
+        .sublink {
+            color: white;
+            text-decoration: none;
+            font-size: 16px;
+        }
+        .link:hover {
+            background-color: #000;
+        }
+    }
+}
+
+.promo {
+    background: url(img/background_in_space.gif) center center/cover no-repeat;
+    text-align: center;
+    height: 574px;
+    padding-top: 89px;
+    
+
+    .header{
+        padding-top: 80px;
+        font-size: 70px;
+        color:#fff;
+    }
+
+    .subheader{
+        padding-top: 30px;
+        font-size: 23px;
+        color: #FFF4A3;
+        padding-bottom: 30px;
+    }
+
+    .promosearch{
+        width: 400px;
+        height: 47px;
+        padding: 10px 10px 10px 25px;
+        border-radius:50px 0 0 50px;
+        border: none;
+    }
+
+    .promobtn{
+        width: 100px;
+        height: 47px;
+        background-color: #04AA6D;
+        border: none;
+        color: white;
+        border-radius: 0 50px 50px 0;
+        margin-left: -10px;
+    }
+
+    .promolink{
+        padding-top: 30px;
+
+        .link{
+            font-size: 23px;
+            color: #fff;
+            font-weight: 700;
+        }
+
+        .link:hover {
+            color: #FFF4A3;
+        }
+    }
+}
+
+.langdescr{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .header{
+        font-size: 100px;
+        padding: 18px;
+        color: #000;
+    }
+
+    .subheader{
+        font-size: 19px;
+        padding: 22.8px;
+        color: #000;
+    }
+
+    .green{
+        width: 200px;
+        height: 43px;
+        border-radius:50px;
+        border: none;
+        color: #fff;
+        background-color: #04AA6D;
+    }
+
+    .yellow{
+        width: 200px;
+        height: 43px;
+        border-radius:50px;
+        border: none;
+        color: #000;
+        background-color:#FFF4A3;
+        margin-top: 20px;
+    }
+
+    .black{
+        width: 200px;
+        height: 43px;
+        border-radius:50px;
+        border: none;
+        color: #fff;
+        background-color:#000;
+        margin-top: 20px;
+    }
+
+    .pink{
+        width: 200px;
+        height: 43px;
+        border-radius:50px;
+        border: none;
+        color: #000;
+        background-color: pink;
+        margin-top: 20px;
+    }
+}
+
+.langframe{
+    background-color: #38444D;
+    width: 431px;
+    height: 453px;
+    padding: 16px;
+
+    .frhead {
+        font-size: 24px;
+        color: #ddd;
+        margin: 10px;
+    }
+
+    .frcode {
+        height: 300px;
+        background-color: #000;
+        margin: 5px auto;
+    }
+
+    .frbtn{
+        width: 200px;
+        height: 43px;
+        border-radius:50px;
+        border: none;
+        color: #fff;
+        background-color: #04AA6D;
+        font-size: 18px;
+        margin: 8px;
+    }
+}
+
+.html{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 30px 130px;
+    background-color: #D9EEE1;
+}
+
+.css{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 30px 130px;
+    background-color: #FFF4A3;
+}
+
+.javascript{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 30px 130px;
+    background-color: #282A35;
+
+    .header{
+        color:#fff;
+    }
+
+    .subheader {
+        color: #fff;
+    }
+
+    .black {
+        color: #000;
+        background-color: #fff;
+    }
+}
+
+.phyton{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 30px 130px;
+    background-color: #F3ECEA;
+}
